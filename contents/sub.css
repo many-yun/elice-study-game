@@ -79,6 +79,7 @@ section .game-box .result .btn_again:hover i {
 }
 
 footer#sub_ft {
+<<<<<<< HEAD
   width:100%;
   position:fixed;
   left:0;
@@ -149,3 +150,52 @@ footer#sub_ft .next-game:hover {
 
   }
 }
+=======
+  padding: 0 30px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+}
+footer#sub_ft > a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120px;
+  color: rgba(39, 11, 92, 0.7);
+}
+footer#sub_ft > a:hover {
+  color: rgb(156, 113, 255);
+}
+
+footer#sub_ft .prev-game {
+  float: left;
+}
+footer#sub_ft > .prev-game:hover {
+  animation: arrow 1s ease infinite;
+}
+@keyframes arrow {
+  0% {
+  }
+  50% {
+    margin-left: -10px;
+  }
+  100% {
+  }
+}
+footer#sub_ft .next-game {
+  float: right;
+}
+footer#sub_ft .next-game:hover {
+  animation: arrow2 1s ease infinite;
+}
+@keyframes arrow2 {
+  0% {
+  }
+  50% {
+    margin-right: -10px;
+  }
+  100% {
+  }
+}
+>>>>>>> 1718aa049e95166919026ec37c5839ab6b7f841f

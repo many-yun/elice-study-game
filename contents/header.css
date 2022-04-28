@@ -1,7 +1,10 @@
 .title {
     padding: 30px;
+<<<<<<< HEAD
     display: inline-block;
     cursor: pointer;
+=======
+>>>>>>> 1718aa049e95166919026ec37c5839ab6b7f841f
 }
 .title p{
     width: fit-content;
@@ -94,6 +97,7 @@
       transform: scale(0.3);
       animation-timing-function: ease-out;
     }
+<<<<<<< HEAD
 }
 
 #help {
@@ -127,4 +131,6 @@
 }
 #help .no-box {
     display:none;
+=======
+>>>>>>> 1718aa049e95166919026ec37c5839ab6b7f841f
 }
